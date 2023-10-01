@@ -33,7 +33,7 @@ variable "parent_instance" {
       key_name = string
     })
     default = {
-      name = "Mod_instance"
+      name = "Modi"
       instance_ami  = "ami-024e6efaf93d85776"
       instance_type = "t2.micro"
       key_name = "SSHVMs"
