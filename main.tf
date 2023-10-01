@@ -41,7 +41,7 @@ module "instancia1" {
   source = "./ec2_module"
 
   #pasando variables 
-  
+  regionec2 = var.region
   mod_instance_parameters = var.parent_instance
   
 }
