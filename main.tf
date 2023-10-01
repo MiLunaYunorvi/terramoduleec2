@@ -1,11 +1,11 @@
 terraform {
 
-  cloud {
-    organization = "MILUNADEV"
-    workspaces {
-      name = "cliwork"
-    }
-  }
+  # cloud {
+  #   organization = "MILUNADEV"
+  #   workspaces {
+  #     name = "cliwork"
+  #   }
+  # }
 
 
 
