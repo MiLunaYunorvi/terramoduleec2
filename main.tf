@@ -41,7 +41,7 @@ module "instancia1" {
   source = "./ec2_module"
 
   #pasando variables 
-  regionec2 = "us-east-2"
+  
   mod_instance_parameters = var.parent_instance
   
 }
